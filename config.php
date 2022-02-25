@@ -1,7 +1,7 @@
 <?php
 
 /** O nome do banco de dados*/
-define('DB_NAME', 'wda_crud');
+define('DB_NAME', 'dbloja');
 
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');
