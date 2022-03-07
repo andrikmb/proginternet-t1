@@ -61,4 +61,3 @@
 </tbody>
 </table>
 
-<?php include(FOOTER_TEMPLATE); ?>
