@@ -8,63 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Clientes</title>
+    <title>Configura</title>
   </head>
   <body>
   <div class="container">
   <nav class="nav">
-<a class="nav-link active" href="vendas.php">Vendas</a>
-<a class="nav-link disabled" href="clientes.php">Clientes</a>
+<a class="nav-link active disabled" href="vendas.php">Vendas</a>
+<a class="nav-link" href="clientes.php">Clientes</a>
 <a class="nav-link" href="estoque.php">Estoque</a>
 <a class="nav-link" href="configura.php">Configurações</a>
 </nav>
 </div>
   <div class="container">
   <!-- Content here -->
-
-<table class="table table-bordered table-sm">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Nome</th>
-      <th scope="col">CPF</th>
-      <th scope="col"></th>
-      <th scope="col">Ações</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-      <td>
-      <button type="button" class="btn btn-primary btn-sm">Editar</button>
-      <button type="button" class="btn btn-primary btn-sm">Remover</button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-      <td>
-      <button type="button" class="btn btn-primary btn-sm">Editar</button>
-      <button type="button" class="btn btn-primary btn-sm">Remover</button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>
-      <button type="button" class="btn btn-primary btn-sm">Editar</button>
-      <button type="button" class="btn btn-primary btn-sm">Remover</button>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 </div>
 
