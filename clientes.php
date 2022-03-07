@@ -12,13 +12,16 @@
   </head>
   <body>
   <div class="container">
-  <!-- Content here -->
-<nav class="nav">
-<a class="nav-link active" href="#">Active</a>
-<a class="nav-link" href="#">Link</a>
-<a class="nav-link" href="#">Link</a>
-<a class="nav-link disabled" href="#">Disabled</a>
+  <nav class="nav">
+<a class="nav-link active" href="vendas.php">Vendas</a>
+<a class="nav-link disabled" href="clientes.php">Clientes</a>
+<a class="nav-link" href="estoque.php">Estoque</a>
+<a class="nav-link" href="configura.php">Configurações</a>
 </nav>
+</div>
+  <div class="container">
+  <!-- Content here -->
+
 <table class="table table-bordered table-sm">
   <thead>
     <tr>
@@ -35,21 +38,30 @@
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td></td>
+      <td>
+      <button type="button" class="btn btn-primary">Editar</button>
+      <button type="button" class="btn btn-primary">Remover</button>
+      </td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
-      <td></td>
+      <td>
+      <button type="button" class="btn btn-primary">Editar</button>
+      <button type="button" class="btn btn-primary">Remover</button>
+      </td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
-      <td></td>
+      <td>
+      <button type="button" class="btn btn-primary">Editar</button>
+      <button type="button" class="btn btn-primary">Remover</button>
+      </td>
     </tr>
   </tbody>
 </table>
