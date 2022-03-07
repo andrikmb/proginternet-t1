@@ -13,7 +13,12 @@
   <body>
   <div class="container">
   <!-- Content here -->
-  
+<nav class="nav">
+<a class="nav-link active" href="#">Active</a>
+<a class="nav-link" href="#">Link</a>
+<a class="nav-link" href="#">Link</a>
+<a class="nav-link disabled" href="#">Disabled</a>
+</nav>
 <table class="table table-bordered table-sm">
   <thead>
     <tr>
@@ -30,18 +35,21 @@
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
