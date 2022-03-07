@@ -4,9 +4,9 @@ echo "...";
 <?php require_once 'config.php'; ?>
 <?php require_once DBAPI; ?>
 
-<?php 
-	$db = open_database(); 
-	
+<?php
+	$db = open_database();
+
 	if ($db) {
 		echo '<h1>Banco de Dados Conectado!</h1>';
 	} else {
@@ -27,7 +27,7 @@ echo "...";
     <title>P&aacute;gina de Login</title>
   </head>
   <body>
-    
+
     <form>
         <div class="position-absolute top-50 start-50 translate-middle">
         <h1>Entre ou registre-se:</h1>
