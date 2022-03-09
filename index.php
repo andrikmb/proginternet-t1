@@ -16,7 +16,8 @@
   <body>
   <div class="container">
   <nav class="nav">
-<a class="nav-link active disabled" href="vendas.php">Vendas</a>
+  <a class="nav-link disabled" href="index.php">Home</a>
+<a class="nav-link" href="vendas.php">Vendas</a>
 <a class="nav-link" href="clientes.php">Clientes</a>
 <a class="nav-link" href="estoque.php">Estoque</a>
 <a class="nav-link" href="configura.php">Configurações</a>

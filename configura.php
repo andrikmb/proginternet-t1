@@ -13,6 +13,8 @@
   <body>
   <div class="container">
   <nav class="nav">
+  <a class="nav-link" href="index.php">Home</a>
+
 <a class="nav-link active" href="vendas.php">Vendas</a>
 <a class="nav-link" href="clientes.php">Clientes</a>
 <a class="nav-link" href="estoque.php">Estoque</a>
