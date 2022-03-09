@@ -1,53 +1,36 @@
-<?php
-echo "...";
-?>
 <?php require_once 'config.php'; ?>
 <?php require_once DBAPI; ?>
 
-<?php
-	$db = open_database();
-
-	if ($db) {
-		echo '<h1>Banco de Dados Conectado!</h1>';
-	} else {
-		echo '<h1>ERRO: Não foi possível Conectar!</h1>';
-	}
-?>
 <!doctype html>
 <html lang="pt">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>P&aacute;gina de Login</title>
+    <title>P&aacute;gina principal</title>
   </head>
   <body>
-
-    <form>
-        <div class="position-absolute top-50 start-50 translate-middle">
-        <h1>Entre ou registre-se:</h1>
-  <div class="">
-    <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Seus dados não serão divulgados.</div>
-  </div>
-  <div class="">
-    <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class=" form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Lembrar do login</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Entrar</button>
+  <div class="container">
+  <nav class="nav">
+<a class="nav-link active disabled" href="vendas.php">Vendas</a>
+<a class="nav-link" href="clientes.php">Clientes</a>
+<a class="nav-link" href="estoque.php">Estoque</a>
+<a class="nav-link" href="configura.php">Configurações</a>
+</nav>
 </div>
-</form>
+  <div class="container">
+  <!-- Content here -->
 
+</div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
