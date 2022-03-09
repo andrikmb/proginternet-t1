@@ -1,3 +1,6 @@
+<?php require_once 'config.php'; ?>
+<?php require_once DBAPI; ?>
+
 <!doctype html>
 <html lang="pt">
   <head>
