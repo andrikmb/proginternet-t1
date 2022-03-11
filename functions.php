@@ -31,5 +31,5 @@ if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-
 } else{
 	return "ok";
 }}
-
+// para commit de atualização
 ?>
