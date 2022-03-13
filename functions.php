@@ -22,6 +22,22 @@ class Produto{
 	public $validade;
 	public $fabricante;
 }
+
+class Cliente{
+	public $id;
+	public $nome;
+	//private $senha;
+}
+
+class Fornecedor{
+
+}
+
+class Carrinho{
+	
+}
+
+
 function test_input($data) {
 	$data = trim($data);
 	$data = stripslashes($data);
