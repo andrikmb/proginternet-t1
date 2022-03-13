@@ -13,30 +13,6 @@ function index() {
 	global $customers;
 	$customers = find_all('customers');
 }
-class Produto{
-	public $id;
-	public $codigo; // barcode EAN-13(gtin), caso não tenha usar um interno
-	private $descricao;
-	protected $preco;
-	public $quantidade;
-	public $validade;
-	public $fabricante;
-}
-
-class Cliente{
-	public $id;
-	public $nome;
-	//private $senha;
-}
-
-class Fornecedor{
-
-}
-
-class Carrinho{
-	
-}
-
 
 function test_input($data) {
 	$data = trim($data);
