@@ -1,9 +1,9 @@
 <?php
 class Produto{
-	private $id;
+	private $idproduto;
 	private $codigo; // barcode EAN-13(gtin), caso não tenha usar um interno
-	private $descricao;
-	private $preco;
+	private $descproduto;
+	private $valorunitario;
 	private $quantidade;
 	private $validade;
 	private $fabricante;

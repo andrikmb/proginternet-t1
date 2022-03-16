@@ -51,27 +51,11 @@
     <title>P&aacute;gina de Login</title>
   </head>
   <body>
-
-    <form>
-        <div class="position-absolute top-50 start-50 translate-middle">
-        <h1>Entre ou registre-se:</h1>
-  <div class="">
-    <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Seus dados não serão divulgados.</div>
-  </div>
-  <div class="">
-    <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class=" form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Lembrar do login</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Entrar</button>
-</div>
-</form>
-
+<?php
+  // email, senha e check1 vem por post
+  print_r($_POST);
+?>
+  
 
   </body>
 </html>

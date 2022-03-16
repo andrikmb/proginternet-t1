@@ -25,6 +25,25 @@
 </div>
   <div class="container">
   <!-- Content here -->
+  <form id="form_login" action="login.php"> 
+        <div class="position-absolute top-50 start-50 translate-middle">
+        <h1>Entre ou registre-se:</h1>
+  <div class="">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Seus dados não serão divulgados.</div>
+  </div>
+  <div class="">
+    <label for="senha" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="senha">
+  </div>
+  <div class=" form-check">
+    <input type="checkbox" class="form-check-input" id="Check1">
+    <label class="form-check-label" for="exampleCheck1">Lembrar do login</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Entrar</button>
+</div>
+</form>
 
 </div>
 
