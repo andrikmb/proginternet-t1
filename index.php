@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["username"])) {
+        header("Location: login.php");
+        exit();
+    }
+?>
 <?php require_once 'config.php'; ?>
 <?php require_once DBAPI; ?>
 
