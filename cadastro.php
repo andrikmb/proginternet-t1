@@ -3,7 +3,7 @@ include __DIR__.'/includes/header.php';
 ?>
 
 
-<form>
+<form action="<?= $_SERVER["PHP_SELF"]?>" method="POST">
 	  Nome:<br/> 
 	  <input type="text" name="nome" placeholder="Qual seu nome?"><br/><br/>
 	  Login:<br/> 
@@ -14,7 +14,7 @@ include __DIR__.'/includes/header.php';
 	  <input type="hidden" value="-1" name="id" >
 	  <button type="submit">Cadastrar</button>
 	</form>
-    
+
     <?php 
     include __DIR__.'/includes/footer.php';
     ?>
