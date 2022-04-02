@@ -11,9 +11,9 @@
 
     <title>Loja 01</title>
   </head>
-  <body class="bg-dark">
+  <body >
       <div class="container">
-          <div class="jumbotron bg-ok">
+          <div class="jumbotron">
             <h1>Loja 01</h1>
             <p>Vendemos o seu produto.</p>
           </div>

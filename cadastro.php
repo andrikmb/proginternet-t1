@@ -3,7 +3,7 @@ include __DIR__.'/includes/header.php';
 ?>
 
 
-<form action="<?= $_SERVER["PHP_SELF"]?>" method="POST">
+<form action="" method="POST">
 	  Nome:<br/> 
 	  <input type="text" name="nome" placeholder="Qual seu nome?"><br/><br/>
 	  Login:<br/> 
