@@ -1,5 +1,7 @@
 <?php
 session_start();
+if(!$_SESSION){}
+
 $users = $_SESSION['users'];
 $dateAndTime = date('m-d-Y h:i:s a', time()); 
 ?>
