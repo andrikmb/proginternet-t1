@@ -48,6 +48,10 @@ foreach($fetchProdutos as $keys => $value){
 	echo "</td></tr>";
 }
 echo "</table>";
+echo "<hr>";
+echo time();
+echo "<br>";
+echo date('now');
 ?>
 
     <?php 
