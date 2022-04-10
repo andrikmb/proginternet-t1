@@ -19,9 +19,35 @@ $fetchProdutos = $sql->fetchAll();
   `validade` date NOT NULL COMMENT 'data de validade'
 
 */
-echo "<table>";
+echo '<table class="table table-success table-hover"><thead><tr>';
+//var_dump($fetchProdutos);
+//echo "<th>";
+echo '<th scope="col">C&oacute;digo</th>';
+echo '<th scope="col">Desci&ccedil;&atilde;o</th>';
+echo '<th scope="col">Valor unit&aacute;rio</th>';
+echo '<th scope="col">Quantidade</th>';
+echo '<th scope="col">Fabricante</th>';
+echo '<th scope="col">Validade</th>';
+echo '<th scope="col"></th></tr>';
 
-
+foreach($fetchProdutos as $keys => $value){
+	echo "<tr><td>codigo";
+	echo $value['codigo'];
+	echo "</td><td>";
+	echo $value['descproduto'];
+	echo "</td><td>";
+	echo $value['valorunitario'];
+	echo "</td><td>";
+	echo $value['quantidade'];
+	echo "</td><td>";
+	echo $value['fabricante'];
+	echo "</td><td>";
+	echo $value['validade'];
+	echo "</td><td>";
+	//botoes de crud vão aqui
+	echo "</td></tr>";
+}
+echo "</table>";
 ?>
 
     <?php 
