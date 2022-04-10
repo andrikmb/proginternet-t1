@@ -31,17 +31,9 @@ CREATE TABLE `clientes` (
   `id` int(11) NOT NULL,
   `nome` varchar(255) COLLATE utf8_bin NOT NULL,
   `cpf_cnpj` varchar(14) COLLATE utf8_bin NOT NULL,
-  `nascimento` date NOT NULL,
-  `endereco` varchar(255) COLLATE utf8_bin NOT NULL,
-  `bairro` varchar(100) COLLATE utf8_bin NOT NULL,
-  `cep` int(8) NOT NULL,
-  `cidade` varchar(100) COLLATE utf8_bin NOT NULL,
-  `estado` varchar(100) COLLATE utf8_bin NOT NULL,
-  `telefone` int(13) NOT NULL,
-  `celular` int(13) NOT NULL,
-  `ie` int(11) NOT NULL,
-  `criacao` datetime NOT NULL,
-  `modificado` datetime NOT NULL
+  `email` varchar(255) COLLATE utf8_bin NOT NULL,
+  `criacao` varchar(255) COLLATE utf8_bin NOT NULL,
+  `modificado` varchar(255) COLLATE utf8_bin NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
