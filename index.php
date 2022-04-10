@@ -11,6 +11,8 @@ if(isset($_SESSION['user'])){
 
 include __DIR__.'/includes/header.php';
 echo "Olá $user";
+
+
 ?>
 <div class="container">
 teste
