@@ -10,7 +10,8 @@ $sql->execute();
 $fetchClientes = $sql->fetchAll();
 
 /*
-  `id` int(11) NOT NULL,
+ `idclientes` int(11) NOT NULL,
+  `idperfil` int(11) NOT NULL DEFAULT 7,
   `nome` varchar(255) COLLATE utf8_bin NOT NULL,
   `cpf_cnpj` varchar(14) COLLATE utf8_bin NOT NULL,
   `email` varchar(255) COLLATE utf8_bin NOT NULL,
@@ -22,6 +23,7 @@ echo '<table class="table table-success table-hover"><thead><tr>';
 //var_dump($fetchClientes);
 //echo "<th>";
 echo '<th scope="col">C&oacute;digo</th>';
+// idperfil não pode ser visto
 echo '<th scope="col">Nome</th>';
 echo '<th scope="col">CPF/CNPJ</th>';
 echo '<th scope="col">Email</th>';
