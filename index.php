@@ -7,11 +7,11 @@ if(isset($_SESSION['user'])){
 ?>
 
 <?php
-
+$dateAndTime = date('m-d-Y h:i:s a', time());
 
 include __DIR__.'/includes/header.php';
-echo "Olá $user";
-
+echo "Olá $user ";
+echo $dateAndTime;
 
 ?>
 <div class="container">

@@ -15,6 +15,10 @@
       <div class="container">
           <div class="jumbotron bg-info">
             <h1>Loja 01</h1>
-            <p>Vendemos o seu produto.</p>
+            <nav class="navbar navbar-dark bg-warning">
+              <div class="container">
+                <a href="index.php" class="navbar-brand">Principal</a>
+              </div>
+            </nav>
           </div>
     
