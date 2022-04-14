@@ -1,7 +1,7 @@
 
 <?php
 
-include_once __DIR__.'/includes/dados_login.php';
+include_once 'dados_login.php';
 session_start();
 $logged=$_SESSION['logado'] ?? null;
 

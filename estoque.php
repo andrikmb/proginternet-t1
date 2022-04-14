@@ -1,7 +1,7 @@
 <?php
-include __DIR__.'/includes/header.php';
+include 'header.php';
 require 'functions.php';
-include_once __DIR__.'/includes/dados_login.php';
+include_once 'dados_login.php';
 session_start();
 ?>
 
@@ -57,5 +57,5 @@ echo date('now');
 ?>
 
     <?php 
-    include __DIR__.'/includes/footer.php';
+    include 'footer.php';
     ?>
