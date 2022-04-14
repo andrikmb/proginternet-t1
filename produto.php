@@ -1,6 +1,6 @@
 <?php
 include_once 'dados_login.php';
-session_start();
+
 
 $logged=$_SESSION['logado'] ?? null;
 
