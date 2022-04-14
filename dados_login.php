@@ -1,9 +1,15 @@
 <?php
 session_start();
 $_SESSION['logado'] = $_SESSION['logado'] ?? false;
-$logged=$_SESSION['logado'] ?? null;
+//$logged=$_SESSION['logado'] ?? null;
 
-if (!$logged) die("a sessão não foi iniciada.");
+if (!$_SESSION['logado']){
+    include_once 'form_login.php';
+}else {
+    include_once 'conteudo_restrito.php';
+}
+
+//if (!$logged) die("a sessão não foi iniciada.");
 //db data
 $usuario_db='admin';
 $senha_db='123456';

@@ -1,3 +1,9 @@
+<?php
+include 'header.php';
+
+?>
+
+
 <form action="" method="post">
     <p>
         Usuario: <br>
@@ -12,3 +18,7 @@
     </p>
 
 </form>
+
+<?php
+include 'footer.php';
+?>
