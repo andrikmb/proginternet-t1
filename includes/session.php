@@ -1,9 +1,7 @@
 <?php
 session_start();
+$logged=$_SESSION['logado'] ?? null;
 
-session_start();
-if(isset($_SESSION['user'])){
-    $user = $_SESSION['user'];
-    $dateAndTime = date('m-d-Y h:i:s a', time());
-} else { $user= "Visitante";}
+if (!$logged) die("a sessão não foi iniciada.");
+
 ?>
