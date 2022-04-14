@@ -1,5 +1,6 @@
 <?php
-
+include_once __DIR__.'/includes/dados_login.php';
+session_start();
 
 class Cliente {
     //colocar conexão aqui
