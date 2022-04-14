@@ -15,6 +15,7 @@ include 'header.php';
     </p>
     <p>
         <input type="submit" value="Entrar">
+        <button class="btn btn-outline-success" type="submit">Search</button>
     </p>
 
 </form>

@@ -15,11 +15,13 @@
       <div class="container">
           <div class="jumbotron bg-info">
             <h1>Loja 01</h1>
+            <div class="container-fluid">
             <nav class="navbar navbar-dark bg-warning">
               <div class="container">
                 <a href="index.php" class="navbar-brand">Principal</a>
-                <a href="?logout=1">Sair</a>
+                <a href="?logout=1" class="nav-item">Sair</a>
               </div>
             </nav>
+</div>
           </div>
     
