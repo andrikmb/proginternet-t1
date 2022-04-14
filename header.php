@@ -18,6 +18,7 @@
             <nav class="navbar navbar-dark bg-warning">
               <div class="container">
                 <a href="index.php" class="navbar-brand">Principal</a>
+                <a href="?logout=1">Sair</a>
               </div>
             </nav>
           </div>
