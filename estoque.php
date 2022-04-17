@@ -54,10 +54,7 @@ foreach($fetchProdutos as $keys => $value){
 	echo "</td></tr>";
 }
 echo "</table>";
-echo " </div><hr>";
-echo time();
-echo "<br>";
-echo date('now');
+echo " </div>";
 
 
 ?>

@@ -25,6 +25,6 @@ if($post_usuario == $usuario_db && $post_senha == $senha_db){
 if (isset($_GET['logout']) && $_GET['logout']==1){
     $_SESSION = array();
     session_destroy();
-    header('Location: /');
+    header('Location: index.php');
 }
 ?>
