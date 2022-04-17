@@ -23,7 +23,8 @@ $fetchProdutos = $sql->fetchAll();
 
 */
 echo '<div class"conteiner">';
-echo '<table class="table table-success"><thead><tr>';
+echo '<table class="table table-success" style="border:1px; width:50%; margin-left:auto;
+margin-right:auto;"><thead><tr>';
 //var_dump($fetchProdutos);
 
 echo '<th scope="col">C&oacute;digo</th>';
@@ -58,41 +59,6 @@ echo time();
 echo "<br>";
 echo date('now');
 
-
-echo '<div class"conteiner ">';
-	echo '<div class="w-50 mx-auto">';//começo da tabela
-		echo '<div class="row justify-content-md-center">';// 1a linha
-			//echo '<div class="col-md-auto">';
-					echo '<div class="col">C&oacute;digo</div>';
-					echo '<div class="col">Desci&ccedil;&atilde;o</div>';
-					echo '<div class="col">Valor unit&aacute;rio</div>';
-					echo '<div class="col">Quantidade</div>';
-					echo '<div class="col">Fabricante</div>';
-					echo '<div class="col">Validade</div>';
-				//echo '</div>';
-			echo '</div>';
-
-
-foreach($fetchProdutos as $keys => $value){
-	echo '<div class="row justify-content-md-center">';
-	echo '<div class="col">';
-	echo $value['codigo'];
-	echo '</div><div class="col">';
-	echo $value['descproduto'];
-	echo '</div><div class="col">';
-	echo $value['valorunitario'];
-	echo '</div><div class="col">';
-	echo $value['quantidade'];
-	echo '</div><div class="col">';
-	echo $value['fabricante'];
-	echo '</div><div class="col">';
-	echo $value['validade'];
-	echo '</div><div class="col">';
-	//botoes de crud vão aqui
-	echo "</div></div>";
-}
-echo "</div>";
-echo " </div><hr>";
 
 ?>
 
