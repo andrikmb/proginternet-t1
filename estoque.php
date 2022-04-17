@@ -23,20 +23,20 @@ $fetchProdutos = $sql->fetchAll();
 
 */
 echo '<div class"conteiner">';
-echo '<table class="table table-success table-hover table-sm"><thead><tr>';
+echo '<table class="table table-success"><thead><tr>';
 //var_dump($fetchProdutos);
-echo '<div class="col-md-auto">';
-echo '<th scope="col-md-auto">C&oacute;digo</th>';
-echo '<th scope="col-md-auto">Desci&ccedil;&atilde;o</th>';
-echo '<th scope="col-md-auto">Valor unit&aacute;rio</th>';
-echo '<th scope="col-md-auto">Quantidade</th>';
-echo '<th scope="col-md-auto">Fabricante</th>';
-echo '<th scope="col-md-auto">Validade</th>';
-echo '<th scope="col-md-auto"></th></tr>';
-echo '</div>';
+
+echo '<th scope="col">C&oacute;digo</th>';
+echo '<th scope="col">Desci&ccedil;&atilde;o</th>';
+echo '<th scope="col">Valor unit&aacute;rio</th>';
+echo '<th scope="col">Quantidade</th>';
+echo '<th scope="col">Fabricante</th>';
+echo '<th scope="col">Validade</th>';
+echo '<th scope="col"></th></tr>';
+
 
 foreach($fetchProdutos as $keys => $value){
-	echo "<tr><td>codigo";
+	echo '<tr><td>';
 	echo $value['codigo'];
 	echo "</td><td>";
 	echo $value['descproduto'];
@@ -59,35 +59,35 @@ echo "<br>";
 echo date('now');
 
 
-echo '<div class"conteiner">';
-	echo '<div class="">';//começo da tabela
+echo '<div class"conteiner ">';
+	echo '<div class="w-50 mx-auto">';//começo da tabela
 		echo '<div class="row justify-content-md-center">';// 1a linha
 			//echo '<div class="col-md-auto">';
-					echo '<div class="col-6 ">C&oacute;digo</div>';
-					echo '<div class="col-6 ">Desci&ccedil;&atilde;o</div>';
-					echo '<div class="col-6 ">Valor unit&aacute;rio</div>';
-					echo '<div class="col-6 ">Quantidade</div>';
-					echo '<div class="col-6 ">Fabricante</div>';
-					echo '<div class="col-6 ">Validade</div>';
+					echo '<div class="col">C&oacute;digo</div>';
+					echo '<div class="col">Desci&ccedil;&atilde;o</div>';
+					echo '<div class="col">Valor unit&aacute;rio</div>';
+					echo '<div class="col">Quantidade</div>';
+					echo '<div class="col">Fabricante</div>';
+					echo '<div class="col">Validade</div>';
 				//echo '</div>';
 			echo '</div>';
 
 
 foreach($fetchProdutos as $keys => $value){
 	echo '<div class="row justify-content-md-center">';
-	echo '<div class="col-md-auto">';
+	echo '<div class="col">';
 	echo $value['codigo'];
-	echo '</div><div class="col-md-auto">';
+	echo '</div><div class="col">';
 	echo $value['descproduto'];
-	echo '</div><div class="col-md-auto">';
+	echo '</div><div class="col">';
 	echo $value['valorunitario'];
-	echo '</div><div class="col-md-auto">';
+	echo '</div><div class="col">';
 	echo $value['quantidade'];
-	echo '</div><div class="col-md-auto">';
+	echo '</div><div class="col">';
 	echo $value['fabricante'];
-	echo '</div><div class="col-md-auto">';
+	echo '</div><div class="col">';
 	echo $value['validade'];
-	echo '</div><div class="col-md-auto">';
+	echo '</div><div class="col">';
 	//botoes de crud vão aqui
 	echo "</div></div>";
 }
