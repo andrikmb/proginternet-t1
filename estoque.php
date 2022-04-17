@@ -51,9 +51,12 @@ foreach($fetchProdutos as $keys => $value){
 	echo $value['validade'];
 	echo "</td><td>";
 	//botoes de crud vão aqui
-	echo '<button type="button" class="btn btn-primary">Editar</button>';
-	echo '<button type="button" class="btn btn-danger">Excluir</button>';
-	echo "</td></tr>";
+	$id = $value['idproduto'];
+	echo $id;
+	?>
+	<a class="btn btn-primary" href="editar.php?cod=<?php echo $id;?>" role="button">Editar</a>
+	<a class="btn btn-primary" href="excluir.php?cod=<?php echo $id;?>" role="button">Excluir</a>
+	<?php echo "</td></tr>";
 }
 echo "</table>";
 echo " </div>";
@@ -61,6 +64,6 @@ echo " </div>";
 
 ?>
 
-    <?php 
-    include 'footer.php';
-    ?>
+<?php 
+include 'footer.php';
+?>
