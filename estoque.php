@@ -23,7 +23,7 @@ $fetchProdutos = $sql->fetchAll();
 
 */
 echo '<div class"conteiner">';
-echo '<table class="table table-success" style="border:1px; width:50%; margin-left:auto;
+echo '<table class="table table-success" style="border:1px; width:70%; margin-left:auto;
 margin-right:auto;"><thead><tr>';
 //var_dump($fetchProdutos);
 
@@ -33,7 +33,7 @@ echo '<th scope="col">Valor unit&aacute;rio</th>';
 echo '<th scope="col">Quantidade</th>';
 echo '<th scope="col">Fabricante</th>';
 echo '<th scope="col">Validade</th>';
-echo '<th scope="col"></th></tr>';
+echo '<th scope="col">Op&ccedil;&otilde;es</th></tr>';
 
 
 foreach($fetchProdutos as $keys => $value){
@@ -51,6 +51,8 @@ foreach($fetchProdutos as $keys => $value){
 	echo $value['validade'];
 	echo "</td><td>";
 	//botoes de crud vão aqui
+	echo '<button type="button" class="btn btn-primary">Editar</button>';
+	echo '<button type="button" class="btn btn-danger">Excluir</button>';
 	echo "</td></tr>";
 }
 echo "</table>";
