@@ -15,3 +15,5 @@ Tema: Aplicação Web
 Professor: Carlos Eduardo Simões Pelegrin
 
 sistema simples de crud, a base de dados tem que estar configurada e com os dados inseridos
+
+não usar nem testar em servidores de produção, teste por sua conta e risco.
